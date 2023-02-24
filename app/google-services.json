@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394919598264",
+    "project_id": "astral-iridescence",
+    "storage_bucket": "astral-iridescence.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394919598264:android:e0a8e063dc3a568e483c4d",
+        "android_client_info": {
+          "package_name": "com.ids.little.farm.time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394919598264-h176jh6qf8q19mupbh45vkq58u02upk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFRhOVidmgEiogMLrwXp-umkLzfC9hT68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394919598264-h176jh6qf8q19mupbh45vkq58u02upk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

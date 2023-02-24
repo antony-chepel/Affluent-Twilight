@@ -1,12 +1,11 @@
 <resources>
-    <string name="app_name">IPLay 23</string>
-    <string name="facebook_app_id">744927993901514</string>
-    <string name="fb_login_protocol_scheme">fb744927993901514</string>
-    <string name="hello_blank_fragment">Hwopqlplpskodko</string>
-    <string name="facebook_client_token">3f843f9b733926663071b6093989731f</string>
-    <string name="camera_permission_denied_txt">Permission denied</string>
-    <string name="camera_permission_granted_txt">Permission granted</string>
+    <string name="app_name">Affluent Twilight</string>
     <string name="cannot_open_file_chooser_txt">Can not open file chooser</string>
+    <string name="camera_permission_granted_txt">Permission granted</string>
+    <string name="facebook_app_id">640296188103920</string>
+    <string name="fb_login_protocol_scheme">fb640296188103920</string>
+    <string name="camera_permission_denied_txt">Permission denied</string>
+    <string name="facebook_client_token">99e7bae55e877e314faa2aaa76e7c8db</string>
 
 
 </resources>

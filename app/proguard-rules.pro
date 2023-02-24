@@ -1,3 +1,17 @@
+
+# Facebook
+-keep class com.facebook.** {
+   *;
+}
+
+# OkHttp
+-keep class com.squareup.okhttp.** { *; }
+-dontwarn com.squareup.okhttp.**
+-dontwarn okhttp3.**
+#Onesignal
+-dontwarn com.onesignal.**
+-keep class com.onesignal.ActivityLifecycleListenerCompat** {*;}
+
 # Retrofit
 -keep class com.google.gson.** { *; }
 -keep public class com.google.gson.** {public private protected *;}
@@ -8,25 +22,10 @@
 -keepattributes Signature
 -dontwarn com.squareup.okhttp.*
 
-#Onesignal
--dontwarn com.onesignal.**
--keep class com.onesignal.ActivityLifecycleListenerCompat** {*;}
-
-# OkHttp
--keep class com.squareup.okhttp.** { *; }
--dontwarn com.squareup.okhttp.**
--dontwarn okhttp3.**
-
-
-
-# Facebook
--keep class com.facebook.** {
-   *;
-}
-
 #AppsFlyer
 -keep class com.appsflyer.** { *; }
 -keep public class com.android.installreferrer.** { *; }
+
 
 #Mytracker
 -keep class com.my.tracker.** { *; }
@@ -41,6 +40,7 @@
 -keep class com.android.installreferrer.** { *; }
 -keep class com.android.vending.billing.** { *; }
 -keep class com.android.billingclient.api.** { *; }
+
 
 #Coroutines
 -keep class kotlinx.coroutines.**

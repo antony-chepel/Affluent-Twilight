@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/aff_w_bg"
+    android:layout_height="match_parent"
+    tools:context=".Fcocoxiyuhxgygsd">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="180dp"
+        app:strokeColor="@color/white"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/aff_prm_clr_balance">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/coin_imp_aff" />
+
+
+            <TextView
+                android:id="@+id/ncnxbuvhhudshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aff_w_med"
+                android:includeFontPadding="false"
+                android:text="209383"
+                android:shadowColor="@color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.33"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/ic_back_imp_gm_sec"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        app:srcCompat="@drawable/aff_back" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/imageView11"
+        android:layout_width="360dp"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/aff_prm_clr_balance"
+        android:layout_height="360dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@color/aff_prm_clr_bg_crd"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/im_aff_it_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.06999999"
+                app:srcCompat="@drawable/aff_w_it_1" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/im_aff_it_1"
+                app:layout_constraintStart_toStartOf="@+id/im_aff_it_1"
+                app:layout_constraintTop_toBottomOf="@+id/im_aff_it_1"
+                app:layout_constraintVertical_bias="0.25"
+                app:srcCompat="@drawable/aff_w_it_2" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="@+id/im_aff_it_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.23"
+                app:layout_constraintStart_toEndOf="@+id/im_aff_it_1"
+                app:layout_constraintTop_toTopOf="@+id/im_aff_it_1"
+                app:srcCompat="@drawable/aff_w_it_3" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="@+id/im_aff_it_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/im_aff_it_2"
+                app:layout_constraintTop_toTopOf="@+id/im_aff_it_2"
+                app:srcCompat="@drawable/aff_w_it_4" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="@+id/im_aff_it_4"
+                app:layout_constraintEnd_toEndOf="@+id/im_aff_it_2"
+                app:layout_constraintStart_toStartOf="@+id/im_aff_it_2"
+                app:layout_constraintTop_toTopOf="@+id/im_aff_it_4"
+                app:srcCompat="@drawable/aff_w_it_5" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="@+id/im_aff_it_5"
+                app:layout_constraintEnd_toEndOf="@+id/im_aff_it_3"
+                app:layout_constraintStart_toStartOf="@+id/im_aff_it_3"
+                app:layout_constraintTop_toTopOf="@+id/im_aff_it_5"
+                app:srcCompat="@drawable/aff_w_it_6" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/im_aff_it_4"
+                app:layout_constraintStart_toStartOf="@+id/im_aff_it_4"
+                app:layout_constraintTop_toBottomOf="@+id/im_aff_it_4"
+                app:layout_constraintVertical_bias="0.65999997"
+                app:srcCompat="@drawable/aff_w_it_4" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="@+id/im_aff_it_7"
+                app:layout_constraintEnd_toEndOf="@+id/im_aff_it_5"
+                app:layout_constraintStart_toStartOf="@+id/im_aff_it_5"
+                app:layout_constraintTop_toTopOf="@+id/im_aff_it_7"
+                app:srcCompat="@drawable/aff_w_it_6" />
+
+            <ImageView
+                android:id="@+id/im_aff_it_9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toBottomOf="@+id/im_aff_it_8"
+                app:layout_constraintEnd_toEndOf="@+id/im_aff_it_6"
+                app:layout_constraintStart_toStartOf="@+id/im_aff_it_6"
+                app:layout_constraintTop_toTopOf="@+id/im_aff_it_8"
+                app:srcCompat="@drawable/aff_w_it_7" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:strokeColor="@color/aff_prm_clr_balance"
+        app:strokeWidth="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/aff_prm_clr_bg_crd">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aff_w_med"
+                android:includeFontPadding="false"
+                android:text="SET"
+                android:shadowColor="@color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ijcxjijivhusdugysdgy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/aff_w_med"
+                android:includeFontPadding="false"
+                android:text="73932"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/apskoakoijsudh"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialCardView"
+        app:layout_constraintEnd_toStartOf="@+id/materialCardView"
+        app:layout_constraintTop_toTopOf="@+id/materialCardView"
+        app:srcCompat="@drawable/aff_down_arr" />
+
+    <ImageView
+        android:id="@+id/sijaijwdhuuhsd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialCardView"
+        app:layout_constraintStart_toEndOf="@+id/materialCardView"
+        app:layout_constraintTop_toTopOf="@+id/materialCardView"
+        app:srcCompat="@drawable/aff_up_arr" />
+
+    <Button
+        android:id="@+id/sijdji"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:textSize="23sp"
+        android:backgroundTint="@color/black"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/aff_w_bld"
+        android:layout_marginTop="30dp"
+        android:text="SPIN"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

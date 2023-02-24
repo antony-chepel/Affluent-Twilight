@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "394919598264",
-    "project_id": "astral-iridescence",
-    "storage_bucket": "astral-iridescence.appspot.com"
+    "project_number": "700108124217",
+    "project_id": "affluent-twilight",
+    "storage_bucket": "affluent-twilight.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:394919598264:android:e0a8e063dc3a568e483c4d",
+        "mobilesdk_app_id": "1:700108124217:android:b279d010f77758a9df9de8",
         "android_client_info": {
-          "package_name": "com.ids.little.farm.time"
+          "package_name": "com.foranj.farm"
         }
       },
       "oauth_client": [
         {
-          "client_id": "394919598264-h176jh6qf8q19mupbh45vkq58u02upk7.apps.googleusercontent.com",
+          "client_id": "700108124217-6q9obsbvp55e3kq4tg7qkl34l9jdf3hd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBFRhOVidmgEiogMLrwXp-umkLzfC9hT68"
+          "current_key": "AIzaSyBeI-69EFC2aBG15DaOOX8YYqvCTE-VZ-k"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "394919598264-h176jh6qf8q19mupbh45vkq58u02upk7.apps.googleusercontent.com",
+              "client_id": "700108124217-6q9obsbvp55e3kq4tg7qkl34l9jdf3hd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
